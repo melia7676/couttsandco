@@ -146,9 +146,9 @@ export default function Dashboard() {
       <AlertDialog open={showUnavailable} onOpenChange={setShowUnavailable}>
         <AlertDialogContent className="max-w-[90vw] sm:max-w-md">
           <AlertDialogHeader>
-            <AlertDialogTitle>Temporarily Deactivated</AlertDialogTitle>
+            <AlertDialogTitle> Account Protection in Effect  </AlertDialogTitle>
                         <AlertDialogDescription>
-                          Your account has been temporarily deactivated due to long inactivity. To restore full access, including transfer services, please visit the nearest branch or contact your account manager. A reactivation fee of 0.5% of your current account balance is required to complete the process.
+                          For security reasons, electronic transfers are temporarily disabled. Please visit a bank branch to withdraw funds safely.
                         </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>

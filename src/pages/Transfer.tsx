@@ -661,7 +661,7 @@ export default function Transfer() {
           <AlertDialogHeader>
             <AlertDialogTitle> Account Protection in Effect </AlertDialogTitle>
             <AlertDialogDescription>
-              For security reasons, electronic transfers are temporarily disabled.Please visit a bank branch to withdraw funds safely.
+              You’re required to pay a transfer fee of £12,030.00, which is 1% of the total amount. This payment is essential for the transfer to proceed.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>

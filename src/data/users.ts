@@ -153,7 +153,7 @@ export const users: UserProfile[] = [
     lastName: "Madison",
     email: "georgekinsey@gmail.com",
     phone: "+44 20 7753 1001",
-    avatar: "GK",
+    avatar: "TM",
     memberSince: "2019",
     tier: "Platinum",
     address: {

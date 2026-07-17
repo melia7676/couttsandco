@@ -1,9 +1,9 @@
 // User Data
 export const currentUser = {
   id: "user-001",
-  name: "George Kinsey",
-  firstName: "George",
-  lastName: "Kinsey",
+  name: "Tiffany Ann Madison",
+  firstName: "Tiffany",
+  lastName: "Ann Madison",
   email: "george.kinsey@apexbank.com",
   phone: "(555) 123-4567",
   avatar: "GK",

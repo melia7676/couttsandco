@@ -2,11 +2,11 @@
 export const currentUser = {
   id: "user-001",
   name: "Tiffany Ann Madison",
-  firstName: "Tiffany",
-  lastName: "Ann Madison",
+  firstName: "Tiffany Ann",
+  lastName: "Madison",
   email: "george.kinsey@apexbank.com",
   phone: "(555) 123-4567",
-  avatar: "GK",
+  avatar: "TM",
   memberSince: "2019",
   tier: "Platinum",
   address: {

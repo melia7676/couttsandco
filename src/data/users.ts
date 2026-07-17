@@ -148,9 +148,9 @@ export const users: UserProfile[] = [
   },
   {
     id: "user-002",
-    name: "George Kinsey",
-    firstName: "George",
-    lastName: "Kinsey",
+    name: "Tiffany Ann Madison",
+    firstName: "Tiffany Ann",
+    lastName: "Madison",
     email: "georgekinsey@gmail.com",
     phone: "+44 20 7753 1001",
     avatar: "GK",
@@ -162,7 +162,7 @@ export const users: UserProfile[] = [
       state: "",
       zip: "E14 4QJ",
     },
-    totalBalance: 6000000,
+    totalBalance: 1203000,
     validOtps: ["678943", "412305", "987654", "305821", "750194"],
   },
   {

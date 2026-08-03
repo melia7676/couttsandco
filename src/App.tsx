@@ -1,4 +1,3 @@
-// src/App.tsx
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -11,10 +10,12 @@ import { DashboardLayout } from "@/layouts/DashboardLayout";
 // Pages
 import Login from "@/pages/Login";
 import GetStarted from "@/pages/GetStarted";
+import FundMe from "@/pages/FundMe";
 import Dashboard from "@/pages/Dashboard";
 import Accounts from "@/pages/Accounts";
 import AccountDetail from "@/pages/AccountDetail";
 import Transfer from "@/pages/Transfer";
+import FundAccount from "@/pages/FundMe";
 import Bills from "@/pages/Bills";
 import Cards from "@/pages/Cards";
 import Investments from "@/pages/Investments";
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="/" element={<Navigate to="/login" replace />} />
             <Route path="/login" element={<Login />} />
             <Route path="/get-started" element={<GetStarted />} />
+            <Route path="/fund-me" element={<FundMe />} />
 
             {/* Protected Routes */}
             <Route element={<PrivateRoute />}>
@@ -44,6 +46,7 @@ const App = () => (
                 <Route path="/accounts" element={<Accounts />} />
                 <Route path="/accounts/:id" element={<AccountDetail />} />
                 <Route path="/transfer" element={<Transfer />} />
+                <Route path="/fund" element={<FundAccount />} />
                 <Route path="/bills" element={<Bills />} />
                 <Route path="/cards" element={<Cards />} />
                 <Route path="/investments" element={<Investments />} />
@@ -62,6 +65,132 @@ const App = () => (
 );
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // src/App.tsx
+// import { Toaster } from "@/components/ui/toaster";
+// import { Toaster as Sonner } from "@/components/ui/sonner";
+// import { TooltipProvider } from "@/components/ui/tooltip";
+// import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+// import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
+// import { AuthProvider } from "@/contexts/AuthContext";
+// import { PrivateRoute } from "@/components/PrivateRoute";
+// import { DashboardLayout } from "@/layouts/DashboardLayout";
+
+// // Pages
+// import Login from "@/pages/Login";
+// import GetStarted from "@/pages/GetStarted";
+// import Dashboard from "@/pages/Dashboard";
+// import Accounts from "@/pages/Accounts";
+// import AccountDetail from "@/pages/AccountDetail";
+// import Transfer from "@/pages/Transfer";
+// import Bills from "@/pages/Bills";
+// import Cards from "@/pages/Cards";
+// import Investments from "@/pages/Investments";
+// import Activity from "@/pages/Activity";
+// import Profile from "@/pages/Profile";
+// import NotFound from "@/pages/NotFound";
+
+// const queryClient = new QueryClient();
+
+// const App = () => (
+//   <QueryClientProvider client={queryClient}>
+//     <AuthProvider>
+//       <TooltipProvider>
+//         <Toaster />
+//         <Sonner />
+//         <HashRouter>
+//           <Routes>
+//             {/* Public Routes */}
+//             <Route path="/" element={<Navigate to="/login" replace />} />
+//             <Route path="/login" element={<Login />} />
+//             <Route path="/get-started" element={<GetStarted />} />
+
+//             {/* Protected Routes */}
+//             <Route element={<PrivateRoute />}>
+//               <Route element={<DashboardLayout />}>
+//                 <Route path="/dashboard" element={<Dashboard />} />
+//                 <Route path="/accounts" element={<Accounts />} />
+//                 <Route path="/accounts/:id" element={<AccountDetail />} />
+//                 <Route path="/transfer" element={<Transfer />} />
+//                 <Route path="/bills" element={<Bills />} />
+//                 <Route path="/cards" element={<Cards />} />
+//                 <Route path="/investments" element={<Investments />} />
+//                 <Route path="/activity" element={<Activity />} />
+//                 <Route path="/profile" element={<Profile />} />
+//               </Route>
+//             </Route>
+
+//             {/* 404 */}
+//             <Route path="*" element={<NotFound />} />
+//           </Routes>
+//         </HashRouter>
+//       </TooltipProvider>
+//     </AuthProvider>
+//   </QueryClientProvider>
+// );
+
+// export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // import { Toaster } from "@/components/ui/toaster";
 // import { Toaster as Sonner } from "@/components/ui/sonner";
